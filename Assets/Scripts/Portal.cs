@@ -7,6 +7,9 @@ using UnityEngine.SceneManagement;
 
 public class Portal : MonoBehaviour {
 
+    // Variable to let us save the score.
+    public Score scoreObject;
+
     // Designer variables
     public string sceneToLoad;
 
@@ -22,6 +25,9 @@ public class Portal : MonoBehaviour {
         if (playerScript != null)
         {
             // We DID hit the player!
+
+            // Save the score using our score object references.
+            scoreObject.saveScore();
 
             // Load the next level
             SceneManager.LoadScene(sceneToLoad);
