@@ -15,6 +15,9 @@ EditorBuildSettings:
     path: Assets/Scenes/LVL 2.unity
     guid: 25f2a5efc615ee940b0b00ac1c7f3f08
   - enabled: 1
-    path: Assets/Scenes/GameOverScreen.unity
+    path: Assets/Scenes/WinScreen.unity
     guid: 8da0ce713e4025a47b03c6d1808a718b
+  - enabled: 1
+    path: Assets/Scenes/GameOverScreen.unity
+    guid: 94dfac03fd1799142b5f61e97f1030cd
   m_configObjects: {}

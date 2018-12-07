@@ -16,7 +16,7 @@ public class Score : MonoBehaviour {
     // Variabler to track the numberical score.
     // Private because other scripts should not change the script directly.
     //change it directly
-    // Defoult to 0 since we should have no score when we are starting.
+    // Default to 0 since we should have no score when we are starting.
     private int numericalScore = 0;
     
 
